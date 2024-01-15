@@ -44,3 +44,10 @@ body {
     position: relative;
     right: 30px;
 }
+.hungry {
+    cursor: url(./images/cursor-worm.png), default;
+}
+
+.gone {
+    display: none;
+}
