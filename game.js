@@ -1,4 +1,5 @@
 let score = 0;
+const MAX_SCORE = 5;
 
 
 function getSadInterval() {
@@ -148,7 +149,7 @@ function feed (event) {
         win();
     }
 
-    document.querySelector('.worm-container').style.width = `${10 * score}%`;
+    document.querySelector('.worm-container').style.width = `${(score / MAX_SCORE) * 100}%`;
 };
 
 function win () {
