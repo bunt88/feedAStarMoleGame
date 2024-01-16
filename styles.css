@@ -57,3 +57,16 @@ body {
 
 }
 
+.worm {
+    width: 1660px;
+}
+
+.worm-container {
+    overflow: hidden;
+    width: 5%;
+
+}
+
+.worm-box {
+    width: 1660px;
+}
