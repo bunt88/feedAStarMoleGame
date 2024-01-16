@@ -145,12 +145,12 @@ function feed (event) {
 
     
 
-    if (score >= 10) {
+    if (score >= MAX_SCORE) {
         win();
     }
 
     document.querySelector('.worm-container').style.width = `${(score / MAX_SCORE) * 100}%`;
-};
+}
 
 function win () {
     document.querySelector('.bg').classList.add("hide");
